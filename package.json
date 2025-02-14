@@ -1,0 +1,17 @@
+{
+  "name": "robotbinance",
+  "version": "1.0.0",
+  "main": "robot.js",
+  "scripts": {
+    "start": "node -r dotenv/config robot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ws": "^8.18.0"
+  }
+}
